@@ -1,0 +1,6 @@
+### PROMPT RULE 1 ###
+- Crea ahora un archivo independiente de "hello world" en JS, que no haga nada simplemente para que yo lo vea en el directorio
+- Ahora aplica las reglas definidas en @RULE-EXAMPLE.md a todos los archivos
+
+### PROMPT RULE 2 ###
+- Ahora aplica las reglas definidas en @RULE-EXAMPLE.md

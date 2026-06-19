@@ -1,0 +1,39 @@
+### WORKFLOW 1 ###
+- Descripción_Workflow: Genera y ejecuta pruebas unitarias con Jest para validar la lógica principal del proyecto (funciones y reglas de negocio), informando errores y proponiendo soluciones cuando alguna prueba falla.
+- Content_Workflow: Generar todas las pruebas unitarias básicas para la lógica del proyecto.
+    Pasos:
+    1. Analizar el proyecto en busca de funciones lógicas relevantes (p. ej., createItem, updateItem, deleteItem, processX, validateY) y módulos con reglas de negocio.
+    2. Para cada función/módulo identificado, definir casos de prueba mínimos (casos “happy path”, límites y errores esperados) y generar sus pruebas unitarias con Jest.
+    3. Crear un archivo de test por función o módulo, siguiendo una convención genérica de nombres (p. ej., tests/<modulo>.<funcion>.test.js o __tests__/<modulo>.test.js).
+    4. Ejecutar el conjunto de pruebas y reportar resultados (tests pasados/fallidos, mensajes de error relevantes y el contexto del fallo).
+    5. Si alguna prueba falla, diagnosticar la causa probable y proponer soluciones (cambios en la implementación, ajuste del test, corrección de mocks/fixtures o manejo de edge cases), indicando los siguientes pasos para validar el arreglo.
+
+### WORKFLOW 2 ###
+- Descripción_Workflow: Actualiza automáticamente los estilos del sitio para aplicar una paleta visual tecnológica e innovadora basada en rojo, negro y amarillo.
+- Content_Workflow: Aplicar una paleta de colores tecnológica e innovadora al sitio web
+    Pasos:
+    1. Analizar todos los archivos de estilos del proyecto (CSS y estilos inline).
+    2. Identificar colores actuales, variables CSS y patrones de diseño existentes.
+    3. Definir una nueva paleta tecnológica basada en rojo, negro y amarillo como colores principales.
+    4. Sustituir los colores actuales por la nueva paleta manteniendo contraste y legibilidad.
+    5. Ajustar fondos, textos, botones, enlaces y estados hover/active.
+    6. Mantener la estructura, layout y tipografías originales del sitio.
+    7. Revisar coherencia visual global y evitar combinaciones de bajo contraste.
+    8. Mostrar un resumen de los cambios realizados y los nuevos colores aplicados.
+
+### WORKFLOW 3 ###
+- Descripción_Workflow: Genera automáticamente la documentación completa del proyecto a partir del código y la estructura actual.
+- Content_Workflow: Generar documentación completa del proyecto
+    Pasos:
+    1. Analizar la estructura del proyecto y los archivos principales.
+    2. Revisar el código fuente para identificar funcionalidades, lógica principal y flujo de la aplicación.
+    3. Detectar dependencias, scripts disponibles y requisitos de ejecución.
+    4. Generar un archivo README.md con:
+        - Descripción general del proyecto
+        - Funcionalidades principales
+        - Requisitos técnicos
+        - Pasos de instalación y ejecución en local
+    5. Documentar la estructura de carpetas y el propósito de cada archivo relevante.
+    6. Incluir ejemplos básicos de uso si aplica.
+    7. Revisar la documentación generada para asegurar claridad y coherencia.
+    8. Mostrar un resumen del contenido generado y los archivos creados o actualizados.

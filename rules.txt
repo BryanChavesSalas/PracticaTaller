@@ -1,0 +1,11 @@
+### RULE 1 ###
+Cada archivo JS debe comenzar con un bloque de doc breve explicando su propósito.
+Cada función exportada o pública debe tener docstring o comentario equivalente.
+Incluye ejemplos de uso cuando no sea trivial.
+
+### RULE 2 ###
+Las paletas de colores del sitio deben usar variables CSS para colores.
+Los colores principales deben estar agrupados en un archivo de diseño:
+--color-primary, --color-accent, --color-bg, --color-text, --color-muted.
+Respeta las reglas de contraste accesible (WCAG AA) para texto y fondos.
+No usar colores arbitrarios fuera de la paleta definida sin explicarlo.
